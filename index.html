@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="content">
+            <form>
+                <h4>Account</h4>
+                <div class="info">
+                    <div>
+                        <label><i class="fa-solid fa-user"></i></label><input type="text" placeholder="Full Name">
+                    </div>
+                    <div>
+                        <label><i class="fa-solid fa-envelope"></i></label><input type="text"
+                            placeholder="Email Address">
+                    </div>
+                    <div>
+                        <label><i class="fa-solid fa-key"></i></label><input type="text" placeholder="Password">
+                    </div>
+                </div>
+                <div class="flexDiv">
+                    <div class="dobDiv">
+                        <h4>Date of Birth</h4>
+                        <input type="text" placeholder="DD">
+                        <input type="text" placeholder="MM">
+                        <input type="text" placeholder="YYYY">
+                    </div>
+                    <div class="genderDiv">
+                        <h4>Gender</h4>
+                        <input type="text" placeholder="Male">
+                        <input type="text" placeholder="Female">
+                    </div>
+                </div>
+
+                <div class="cardDetailsDiv">
+                    <h4>Payment Details</h4>
+                    <div class="paymentMode">
+                        <div class="creditcard">
+                            <span><i class="fa-regular fa-credit-card"></i></span>
+                            <h3>Credit Card</h3>
+                        </div>
+                        <div class="paypal">
+                            <span><i class="fa-brands fa-cc-paypal"></i></span>
+                            <h3>Paypal</h3>
+                        </div>
+                    </div>
+                    <div class="cardNumber">
+                        <label><i class="fa-regular fa-credit-card"></i></label><input type="text"
+                            placeholder="Card Number">
+                    </div>
+                    <div class="cardCvcExpiry">
+                        <div class="cardNumber cvc">
+                            <label><i class="fa-solid fa-user"></i></label><input type="text" placeholder="Card CVC">
+                        </div>
+                        <div class="cardNumber cvc expiry">
+                            <div class="expiryDate">
+                                <select id="">
+                                    <option value="1 Jan">01 Jan</option>
+                                    <option value="1 Feb">01 Feb</option>
+                                    <option value="1 Mar">01 Mar</option>
+                                    <option value="1 Apr">01 Apr</option>
+                                    <option value="1 May">01 May</option>
+                                    <option value="1 June">01 June</option>
+                                </select>
+                            </div>
+                            <div class="expirtYear">
+                                <select id="">
+                                    <option value="2015">2015</option>
+                                    <option value="2016">2016</option>
+                                    <option value="2017">2017</option>
+                                    <option value="2018">2018</option>
+                                    <option value="2019">2019</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="termsCondition">
+                        <h4>Terms and Conditions</h4>
+                        <input type="checkbox"><span>I accept the terms and conditions for signing up to this service,and &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hereby confirm I have read the Privacy Policy</span>
+                    </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
